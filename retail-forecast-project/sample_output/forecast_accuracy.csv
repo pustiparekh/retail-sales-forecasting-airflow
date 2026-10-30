@@ -1,0 +1,2 @@
+scored_on,forecast_file,model,days_scored,wape,mae,bias_pct
+2026-10-02,forecast_2026-10-01.csv,random_forest,1,0.0696,221503.02,-0.0696

@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-10-30",
+  "horizon": 14,
+  "results": [
+    {
+      "model": "seasonal_naive",
+      "wape": 0.0483,
+      "mae": 129323.0138,
+      "bias_pct": -0.0104
+    },
+    {
+      "model": "ridge",
+      "wape": 0.0291,
+      "mae": 78082.7189,
+      "bias_pct": -0.0129
+    },
+    {
+      "model": "random_forest",
+      "wape": 0.0279,
+      "mae": 74905.5192,
+      "bias_pct": -0.0276
+    }
+  ],
+  "best_ml": "random_forest",
+  "improvement_vs_baseline": 0.4224,
+  "min_improvement": 0.05,
+  "chosen": "random_forest"
+}
